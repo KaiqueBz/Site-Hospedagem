@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+html, body{
+    overflow-x: hidden;
+    height: 100%;
+    width: 100%;
+}
+
+.inicio{
+    background-color: rgb(34, 132, 223);
+}
+
+.topo{
+    top: 0;
+    width: 100%;
+    padding: 35px 0;
+    display: flex;
+    justify-content: center center;
+    align-items: center;
+    margin-left: 15%; 
+    width: 100vw;
+    height: 15vh;
+}
+
+.topo img{
+    width: 80px;
+}
+
+.topo p{
+    color:#fff;
+}
+
+.links-tabela{
+    justify-content: space-between;
+    margin-left: 15vw;
+    padding: 5px;
+    font-size: 15px;
+}
+
+.links-tabela a{
+    margin-right: 15px;
+    text-decoration: none;
+    color:#fff;
+    padding: 5px;
+}
+
+.tabela-de-valores {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.tabela-de-valores th, .tabela-de-valores td {
+    border: 1px solid #ddd;
+    padding: 15px;
+    text-align: center;
+}
+
+.tabela-de-valores th {
+    background-color: #3498db;
+    color: white;
+    font-size: 18px;
+}
+
+.tabela-de-valores th span {
+    font-size: 22px;
+    font-weight: bold;
+    display: block;
+}
+
+.tabela-de-valores tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.tabela-de-valores th:first-child {
+    background-color: #f4f4f4; /* Coluna vazia */
+    border: none;
+}
+
+.tabela-de-valores td:first-child {
+    background-color: #f4f4f4;
+    font-weight: bold;
+    text-align: left;
+    padding-left: 10px;
+}
+
+/* Estilo para as bolinhas */
+.dot::before {
+    content: "●";
+    color: #3498db;
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.fundo{
+    background-color: #3498db;
+}
+
+.logo-contato{
+    margin: 2vh;
+    display: flex;
+    justify-content: center;
+    align-items: center center;
+}
+
+.logo-contato img{
+    height: 15vh;
+    width: auto;
+}
+
+.texto-subtitulo{
+    margin-top: 2vh;
+    margin-left: 1.5vw;
+}
+
+.texto-subtitulo h3{
+    font-size: 30px;
+}
+
+.textos{
+    font-display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    font-size: 15px;
+    line-height: 3vh;
+    padding: 15px;
+}
+
+.dev{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin-top: 0;
+}
+
+.contato span{
+    color: rgb(0, 68, 255);
+    font-weight: bold;
+}
